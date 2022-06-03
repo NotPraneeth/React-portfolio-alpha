@@ -6,9 +6,9 @@ export default function Portfolio() {
     <div className='portfolio' id='portfolio'>
       <h1>About</h1>
       <ul>
-        <li className='active'>Overview</li>
-        <li>Education</li>
-        <li>Hobbies</li>
+        <li className='active' id="overview">Overview</li>
+        <li id="education">Education</li>
+        <li id="hobbies">Hobbies</li>
       </ul>
       <div className="container">
         <div className="itemLeft">

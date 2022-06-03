@@ -1,9 +1,13 @@
 import "./intro.scss";
+import React, { Component } from 'react'
+import Typical from 'react-typical'
+
 
 
 
 
 export default function Intro() {
+  
   return (
     <div className='intro' id='intro'>
       <div className="left">
@@ -15,7 +19,12 @@ export default function Intro() {
         <div className="wrapper">
           <h2>Hello there, I'm</h2>
           <h1>Sai Praneeth</h1>
-          <h3>And I Develop websites.</h3>
+          <h3>And I'm a <span>
+          <Typical
+        steps={['Web-developer.', 1000, 'Student.', 1000, 'Weeb.',1000,]}
+        loop={Infinity}
+        wrapper="span"
+      /></span></h3>
         </div>
         <a href='#portfolio'>
           <img src="assets/down.png" alt=""/>
