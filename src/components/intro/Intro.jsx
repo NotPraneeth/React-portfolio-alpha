@@ -1,5 +1,4 @@
 import "./intro.scss";
-import React, { Component } from 'react'
 import Typical from 'react-typical'
 
 
