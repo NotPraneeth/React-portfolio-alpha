@@ -2,20 +2,6 @@ import React from 'react'
 import "./portfolio.scss"
 
 export default function Portfolio() {
-  const list = [
-    {
-      id: "overview",
-      title: "Overview"
-    },
-    {
-      id: "education",
-      title: "Education"
-    },
-    {
-      id: "hobbies",
-      title: "Hobbies"
-    },
-  ];
   return (
     <div className='portfolio' id='portfolio'>
       <h1>About</h1>
